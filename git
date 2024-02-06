@@ -1,0 +1,9 @@
+yum install git -y
+git --version
+git init
+git clone github acount url
+create files
+git add file name
+git status
+git commit -m first commit
+git push origin main
