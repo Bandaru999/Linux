@@ -28,7 +28,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://13.127.106.229:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
+		
+		 <repository>
+		    <id>nexusRepo</id>
+		    <url>http://13.127.106.229:8081/sample-release/</url>
+		 </repository>
+  </distributionManagement>
   <build>
     <finalName>creditcard</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
