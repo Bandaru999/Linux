@@ -31,12 +31,12 @@
 <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://3.21.186.129:8081/repository/sample-snapshot/</url>
+		    <url>http://13.200.237.78:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		 <repository>
 		    <id>nexusRepo</id>
-		    <url>http://3.21.186.129:8081/repository/sample-release/</url>
+		    <url>http://13.200.237.78:8081/repository/maven-releases/</url>
 		 </repository>
   </distributionManagement>
   <build>
